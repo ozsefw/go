@@ -1,6 +1,7 @@
 package plot
 
 import (
+	"fmt"
 	"math/rand"
 
 	"gonum.org/v1/plot"
@@ -47,7 +48,9 @@ func test01() {
 		panic(err)
 	}
 }
+
 func test02(){
+	fmt.Printf("git.....")
 }
 
 func Run(){
